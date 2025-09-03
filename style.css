@@ -1,0 +1,68 @@
+#user-list {
+  background-color: white;
+  max-width: 1920px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.user-card {
+  background-color: white;
+  width: 600px;
+  height: 130px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/*카드 내부 */
+
+h1 {
+  font-weight: 1000;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 80px;
+}
+
+#thumbnail {
+  border-radius: 50%;
+  width: 90px;
+  margin-right: 20px;
+  margin-left: 15px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.text h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.text p {
+  color: blue;
+
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
